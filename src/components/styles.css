@@ -1,0 +1,28 @@
+.navBarItems {
+  transition: 2s ease-in-out;
+}
+.navBarItems *:hover {
+  opacity: 0.6;
+}
+.headingDiv {
+  border-left: 2px solid black;
+  padding: 0 2rem;
+}
+span {
+  font-weight: 900;
+}
+.cardFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 22%;
+}
+.cardFlex p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #F03023;
+  cursor: pointer;
+}
+.cardFlex p:hover {
+  text-decoration: underline;
+}

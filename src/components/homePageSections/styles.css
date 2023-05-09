@@ -1,0 +1,246 @@
+strong {
+  color: #f03023;
+  font-weight: 900;
+}
+.heroSectionFlex {
+  position: relative;
+  background: #f9f3dc;
+}
+.heroSectionFlex::before {
+  content: "";
+  background-color: #F5F5F5;
+  width: 540px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -15;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.heroSectionTextFlex {
+  display: flex;
+  align-items: center;
+} 
+.heroSectionText {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  z-index: 1;
+}
+.heroSectionBG {
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+  /* background: #f9f3dc; */
+} 
+ .heroSectionBG img {
+  margin-top: 3rem;
+  margin-right: 3rem;
+} 
+.ourServicesBG {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 4rem;
+  padding-top: 12rem;
+  background-color: #f5f5f5;
+  clip-path: polygon(2px 109px, 100.18% 168px, 100% 98.61%, 0px 100%);
+}
+.ourServicesHeading {
+  margin-left: 7rem;
+}
+.cardsFlex {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.ourClientSaysBG {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+.ourClientsHeading {
+  margin-left: 7rem;
+}
+.clientContentFlex {
+  display: flex;
+  gap: 4rem;
+}
+.clientReview {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.clientDetails {
+  display: flex;
+  flex-direction: column;
+  width: 780px;
+}
+.clientReviewText {
+  padding-top: 2rem;
+}
+.clientReviewText img {
+  margin-bottom: 1rem;
+}
+.clientReviewText p {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.clientIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.videoPlayBG {
+  display: flex;
+}
+.videoPlayTextBG {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 35%;
+  padding: 3rem 2rem;
+  padding-left: 3rem;
+  background-color: #f03023;
+  clip-path: polygon(0px 4px, 100.55% 26px, 100% 100.03%, 0px 100%);
+}
+.videoPlayVideoBG {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
+  padding-top: 6rem;
+  width: 65%;
+  background-color: #f03023;
+  clip-path: polygon(0px 26px, 100.11% 86px, 100% 100.03%, 0px 100.19%);
+}
+.videoPlayText {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.videoPlayVideoBG img {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.videoPlayBottomBG {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 3rem;
+}
+.videoPlayBottomFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  width: 64.3%;
+  gap: 5rem;
+  background-color: #f03023;
+}
+.bottomTextItem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
+.bottomTextItem b {
+  font-weight: 900;
+  font-size: 40px;
+  color: #ffffff;
+}
+.bottomTextItem p {
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+}
+.resourcesBG {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 8rem 18rem;
+  padding-right: 13rem;
+}
+.resourcesHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: 2px solid #000000;
+  padding: 0 1.5rem;
+  width: 400px;
+}
+.resourcesContentFlex {
+  display: flex;
+}
+.resourcesImg {
+  background: #f5f5f5;
+  padding: 2.5rem 3rem;
+}
+.resourcesTextBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  padding-left: 2rem;
+  gap: 1.2rem;
+  width: 416px;
+}
+.resourcesTextBlock p {
+  font-weight: 700;
+  font-size: 14px;
+}
+.resourcesTextBlock b {
+  font-weight: 900;
+  font-size: 40px;
+}
+.borderButton {
+  display: flex;
+  justify-content: center;
+  max-width: 180px;
+  padding: 0.5rem 0;
+  border: 2px solid #000000;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+  font-size: 14px;
+  font-weight: 700;
+}
+.borderButton:hover {
+  background-color: #f03023;
+  color: #ffffff;
+  border: 2px solid transparent;
+}
+.promotionBG {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 5rem 0;
+}
+.promotionHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+  gap: 2rem;
+  text-align: center;
+}
+.footerBG {
+  display: flex;
+  background-color: #000000;
+}
