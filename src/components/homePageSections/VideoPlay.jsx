@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import Heading from "../Heading";
 import YouTubeVideo from "../../assets/youtubeVideo.svg";
+import { Container } from "@mui/material";
 
 const VideoPlay = () => {
   return (
@@ -9,10 +10,22 @@ const VideoPlay = () => {
       <div className="videoPlayBG">
         <div className="videoPlayTextBG">
           <div className="videoPlayText">
-            <p style={{ fontWeight: 900, fontSize: "40px", color: "#FFFFFF" }}>
+            <p
+              style={{
+                fontWeight: 900,
+                fontSize: "40px",
+                color: "#FFFFFF",
+              }}
+            >
               Recruitment Advisor and Coach
             </p>
-            <p style={{ fontWeight: 400, fontSize: "20px", color: "#FFFFFF" }}>
+            <p
+              style={{
+                fontWeight: 400,
+                fontSize: "20px",
+                color: "#FFFFFF",
+              }}
+            >
               I'm here to help you scale your business with powerful strategies
               so you can make more while doing less.
             </p>
@@ -22,7 +35,7 @@ const VideoPlay = () => {
                 fontSize: "16px",
                 color: "#FFFFFF",
                 textDecoration: "underline",
-                cursor: "pointer"
+                cursor: "pointer",
               }}
             >
               Read More About Sophie
